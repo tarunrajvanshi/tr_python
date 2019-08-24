@@ -1,0 +1,10 @@
+import numpy
+n=input('Values of 2*2 matrics:  ')
+print(n)
+x = n.strip().split(' ')
+print(x)
+x = numpy.array(x)
+print(x)
+print(type(x))
+x.shape=(2,2)
+print(x)
